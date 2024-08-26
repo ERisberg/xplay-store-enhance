@@ -579,6 +579,29 @@
         priceTag.innerHTML += " <small>(" + xcoinRatio + "&hairsp;/&hairsp;1k)</small>";
         button.parentNode.append(priceTag);
         button.remove();
+
+        // Color price tag based on what's considered a good deal.
+        const color_bad_deal = "#eb4034";
+        const color_decent_deal = "#ebb434";
+        const color_good_deal = "5feb34";
+
+        const bad_threshold = 0.4;
+        const good_threshold = 0.5;
+
+        if (xcoinRatio < bad_threshold)
+        {
+            priceTag.style.color = color_bad_deal;
+        }
+
+        if (xcoinRatio >= bad_threshold)
+        {
+            priceTag.style.color = color_decent_deal;
+        }
+
+        if (xcoinRatio >= good_threshold)
+        {
+            priceTag.style.color = color_good_deal;
+        }
     }
 
     // Change name color for StatTrak and Souvenir skins
