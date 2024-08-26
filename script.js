@@ -583,7 +583,7 @@
         // Color price tag based on what's considered a good deal.
         const color_bad_deal = "#eb4034";
         const color_decent_deal = "#ebb434";
-        const color_good_deal = "5feb34";
+        const color_good_deal = "#5feb34";
 
         const bad_threshold = 0.4;
         const good_threshold = 0.5;
