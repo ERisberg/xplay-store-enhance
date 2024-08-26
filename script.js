@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         XPLAY.GG Store Enhance
-// @version      2.1.0
+// @name         XPLAY.GG Store Enhance Fork
+// @version      2.1.1
 // @description  Enhances the xplay.gg store with additional features!
 // @author       Treasure
 // @match        https://xplay.gg/*
@@ -9,8 +9,8 @@
 // @grant        GM_xmlhttpRequest
 // @grant        GM_addStyle
 // @connect      steamcommunity.com
-// @updateURL    https://github.com/Tr345ure/xplay-store-enhance/raw/main/xplay-store-enhance.user.js
-// @downloadURL  https://github.com/Tr345ure/xplay-store-enhance/raw/main/xplay-store-enhance.user.js
+// @updateURL    https://github.com/ERisberg/xplay-store-enhance/raw/main/xplay-store-enhance.user.js
+// @downloadURL  https://github.com/ERisberg/xplay-store-enhance/raw/main/xplay-store-enhance.user.js
 // @noframes
 // ==/UserScript==
 
